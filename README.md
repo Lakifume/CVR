@@ -52,3 +52,9 @@ An Unreal Engine fangame combining assets and gameplay elements from all 3 DSVan
 - Giants Dwelling/Mystery Manor
 - Castle Library
 - Underground Labyrinth
+##Plugins
+- PaperZD
+- Low Entry
+- RootMovement
+- SpriteTools
+- Volumetrics
