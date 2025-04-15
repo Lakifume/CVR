@@ -19,6 +19,7 @@ An Unreal Engine fangame combining assets and gameplay elements from all 3 DSVan
 - Sidequests
 - Sidemodes
 - Weapon techniques
+- Breakable walls
 ### What will be randomized
 - Item pickups with completion logic
 - Map layout
@@ -38,7 +39,7 @@ An Unreal Engine fangame combining assets and gameplay elements from all 3 DSVan
 - Weapon
 - Armor
 - Accessory
-- Special
+- Special (skills, spells...)
 ### Areas
 - Garden of madness
 - Demon Guest House
@@ -48,11 +49,11 @@ An Unreal Engine fangame combining assets and gameplay elements from all 3 DSVan
 - Castle Keep
 - Burnt Paradise
 - 13th Street
-- Kalidus Channel/Somnus Reef
+- Minera Prison Island
 - Giants Dwelling/Mystery Manor
 - Castle Library
 - Underground Labyrinth
-##Plugins
+## Plugins
 - PaperZD
 - Low Entry
 - RootMovement
