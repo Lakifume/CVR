@@ -37,9 +37,10 @@ An Unreal Engine fangame combining assets and gameplay elements from all 3 DSVan
 - Upgrade
 - Consumable
 - Weapon
-- Armor
-- Accessory
 - Special (skills, spells...)
+- Armor
+- Gear
+- Accessory
 ### Areas
 - Garden of madness
 - Demon Guest House
