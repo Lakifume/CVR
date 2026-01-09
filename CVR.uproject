@@ -11,7 +11,8 @@
 			"AdditionalDependencies": [
 				"PaperZD",
 				"UMG",
-				"AIModule"
+				"AIModule",
+				"Engine"
 			]
 		}
 	],
@@ -30,7 +31,7 @@
 		},
 		{
 			"Name": "RootMovement",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LowEntryExtStdLib",
