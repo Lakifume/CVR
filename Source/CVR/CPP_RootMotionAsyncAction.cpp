@@ -52,7 +52,7 @@ void UCPP_RootMotionAsyncAction::Activate()
         ConstantForce->AccumulateMode = bIsAdditive ? ERootMotionAccumulateMode::Additive : ERootMotionAccumulateMode::Override;
         ConstantForce->Priority = 5;
         ConstantForce->Force = WorldDirection * Strength;
-        ConstantForce->Duration = Duration;
+        ConstantForce->Duration = (Duration > 0) ? Duration : -1.0;
         ConstantForce->StrengthOverTime = StrengthOverTime;
         ConstantForce->FinishVelocityParams.Mode = VelocityOnFinishMode;
         ConstantForce->FinishVelocityParams.SetVelocity = SetVelocityOnFinish;
@@ -66,7 +66,7 @@ void UCPP_RootMotionAsyncAction::Activate()
         if (CharacterMovement) {
             // Apply root motion source to the character's movement component and save ID
             RootMotionSourceID = CharacterMovement->ApplyRootMotionSource(ConstantForce);
-            bIsRunning = true;
+            bShouldBroadcastCancel = true;
 
             // Set up timer for OnComplete delay
             FTimerManager& TimerManager = World->GetTimerManager();
@@ -81,7 +81,7 @@ void UCPP_RootMotionAsyncAction::Activate()
                         if (WeakThis.IsValid() && WeakThis->IsActive())
                         {
                             // If everything went well, broadcast OnComplete (fire the On Complete pin), and wrap up.
-                            WeakThis->bIsRunning = false;
+                            WeakThis->bShouldBroadcastCancel = false;
                             WeakThis->Cancel();
                             WeakThis->OnComplete.Broadcast();
                         }
@@ -95,33 +95,34 @@ void UCPP_RootMotionAsyncAction::Activate()
     }
 
     // If something failed, we can broadcast OnFail, and then wrap up.
-    bIsRunning = false;
+    bShouldBroadcastCancel = false;
     Cancel();
     OnFail.Broadcast();
 }
 
 void UCPP_RootMotionAsyncAction::Cancel()
 {
+    if (!IsActive())
+    {
+        return;
+    }
+
     Super::Cancel();
 
-    // Cancel the timer if it's ongoing, so OnComplete never broadcasts.
-    if (OngoingTimer.IsValid())
+    if (const UWorld* World = GetWorld())
     {
-        if (const UWorld* World = GetWorld())
+        // Cancel Root Movement
+        CharacterMovement->RemoveRootMotionSourceByID(RootMotionSourceID);
+
+        // Clear up timers
+        FTimerManager& TimerManager = World->GetTimerManager();
+        TimerManager.ClearTimer(OngoingTimer);
+
+        // Broadcast the OnCancel delegate
+        if (bShouldBroadcastCancel)
         {
-            // Cancel Root Movement
-            CharacterMovement->RemoveRootMotionSourceByID(RootMotionSourceID);
-
-            // Clear up timers
-            FTimerManager& TimerManager = World->GetTimerManager();
-            TimerManager.ClearTimer(OngoingTimer);
-
-            // Broadcast the OnCancel delegate
-            if (bIsRunning)
-            {
-                bIsRunning = false;
-                OnCancel.Broadcast();
-            }
+            bShouldBroadcastCancel = false;
+            OnCancel.Broadcast();
         }
     }
 }

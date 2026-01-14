@@ -68,7 +68,7 @@ class CVR_API UCPP_RootMotionAsyncAction : public UCancellableAsyncAction
     FMovementEvent OnFail;
 
     /* A way to check if the action has been cancelled yet. */
-    bool bIsRunning;
+    bool bShouldBroadcastCancel;
 
 public:
     /* Timer handle for OnComplete management */
