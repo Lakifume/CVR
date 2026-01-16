@@ -67,10 +67,11 @@ class CVR_API UCPP_RootMotionAsyncAction : public UCancellableAsyncAction
     UPROPERTY(BlueprintAssignable)
     FMovementEvent OnFail;
 
+public:
     /* A way to check if the action has been cancelled yet. */
+    UPROPERTY(BlueprintReadWrite)
     bool bShouldBroadcastCancel;
 
-public:
     /* Timer handle for OnComplete management */
     UPROPERTY(BlueprintReadOnly)
     FTimerHandle OngoingTimer;
