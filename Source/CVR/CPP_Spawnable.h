@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "Misc/Guid.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "CPP_Spawnable.generated.h"
@@ -12,6 +13,6 @@ class CVR_API ACPP_Spawnable : public AActor
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(BlueprintReadWrite, meta=(ExposeOnSpawn="true"))
-	int32 SpawnGroup;
+	UPROPERTY(BlueprintReadOnly, Category = "Spawn", meta=(ExposeOnSpawn="true"))
+	FGuid ActorSpawnGuid;
 };
