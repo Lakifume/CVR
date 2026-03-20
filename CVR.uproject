@@ -30,10 +30,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c4b43502026047d89296cd7bffd92828"
 		},
 		{
-			"Name": "RootMovement",
-			"Enabled": false
-		},
-		{
 			"Name": "LowEntryExtStdLib",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/846c2ad08f164f45b0335ecebf85361e"
@@ -45,10 +41,6 @@
 		{
 			"Name": "Volumetrics",
 			"Enabled": true
-		},
-		{
-			"Name": "Paper2DExposed",
-			"Enabled": false
 		}
 	]
 }
