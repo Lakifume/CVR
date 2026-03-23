@@ -1,0 +1,11 @@
+---,SpecialEffect,EffectValue
+QuickSlide,"None","0.000000"
+DoubleJump,"None","0.000000"
+HighJump,"None","0.000000"
+DeepSinker,"None","0.000000"
+PhantomDash,"None","0.000000"
+MirrorPendant,"None","0.000000"
+TowerKey,"None","0.000000"
+EbonyStone,"rNightPowerRate","1.200000"
+CrimsonStone,"fEnemyKillRecovery","0.050000"
+PhilosopherStone,"fResurrectionRate","0.050000"

@@ -1,0 +1,6 @@
+---,UpgradeType,UpgradeValue
+HealthMaxUp,"MaxHealth","20"
+MagicMaxUp,"MaxMagic","10"
+WeaponSlotUp,"WeaponSlot","1"
+SpecialSlotUp,"SpecialSlot","1"
+AccessorySlotUp,"AccessorySlot","1"

@@ -1,5 +1,8 @@
-# CVR
-An Unreal Engine fangame combining assets and gameplay elements from all 3 DSVania games to create roguelike/map rando replayable runs
+# Castlevania Remembrance
+CVR is an Unreal Engine fangame combining assets and gameplay elements from all 3 DSVania games to create roguelike runs with high replayability potential.
+The core idea and concept of the game is heavily inspired by Aria of Sorrow Reprise, a roguelike mod for the GBAvania by Xanthus
+
+This is a project meant to be in continuous development until its full scope is reached. See the current roadmap projections below
 ## Currently in the demo
 ### Playable characters
 - Charlotte
@@ -35,21 +38,29 @@ An Unreal Engine fangame combining assets and gameplay elements from all 3 DSVan
 - Mystery Manor
 - Castle Library
 ### Bosses
-- Gergoth
-- PoR Sisters
-- Greatest 5
-- Brauner
-- Blackmore
-- Goliath
-- Barlowe
-- Dario
-- Death
+- Dario *
+- Gergoth **
+- Zephyr *
+- Astarte *
+- Sisters ***
+- Creature *
+- Medusa ***
+- Werewolf *
+- Brauner **
+- Maneater **
+- Goliath ***
+- Albus *
+- Barlowe *
+- Blackmore **
+- Death **
+- Greatest 5 ***
 ### Randomization
-- Map layout and connection
+- Map layout and connections
+- Boss placement
 ### Difficulties
 - Hard
 ## Never planned
-- Cutscenes/dialogues
+- Dialogues
 - Shops
 - Unique enemy drops
 - Sidequests
