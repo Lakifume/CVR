@@ -1,2 +1,5 @@
 - Update color schemes
 - Review enemy drops
+- Fix pause input buffer
+- Adjust room time limit
+- Implement equip ids
