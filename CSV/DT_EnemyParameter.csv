@@ -1,0 +1,54 @@
+---,SpawnClass,MinHealth,MaxHealth,MinPhysicalAttack,MaxPhysicalAttack,MinMagicalAttack,MaxMagicalAttack,MinPhysicalDefense,MaxPhysicalDefense,MinMagicalDefense,MaxMagicalDefense,MinExperience,MaxExperience,Stamina,Tolerances,Immunities,Weight,IsAerial,IsBoss,IsRandom
+Zombie,/Game/Character/Enemy/Zombie/BP_Zombie.BP_Zombie_C,1,120,8,230,8,230,1,30,1,30,1,30,20,"((Fire, Weak),(Light, Weak),(Dark, Strong),(Strike, Strong))",1,1,FALSE,FALSE,TRUE
+Ghoul,/Game/Character/Enemy/Ghoul/BP_Ghoul.BP_Ghoul_C,1,120,8,230,8,230,1,30,1,30,1,30,20,"((Fire, Weak),(Light, Weak),(Dark, Strong),(Strike, Strong))",1,1,FALSE,FALSE,TRUE
+MedusaHead,/Game/Character/Enemy/MedusaHead/BP_MedusaHead.BP_MedusaHead_C,1,60,7,200,7,200,1,20,1,20,0,15,0,"((Slash, Weak),(Light, Weak),(Dark, Strong),(Strike, Strong))",4,1,TRUE,FALSE,TRUE
+GorgonHead,/Game/Character/Enemy/GorgonHead/BP_GorgonHead.BP_GorgonHead_C,1,60,7,200,7,200,1,20,1,20,0,15,0,"((Slash, Weak),(Light, Weak),(Dark, Strong),(Strike, Strong))",4,1,TRUE,FALSE,TRUE
+Ghost,/Game/Character/Enemy/Ghost/BP_Ghost.BP_Ghost_C,2,200,8,240,8,240,2,50,5,100,1,40,30,"((Dark, VeryStrong),(Light, VeryWeak))",7,1,TRUE,FALSE,TRUE
+Gelso,/Game/Character/Enemy/Gelso/BP_Gelso.BP_Gelso_C,1,100,7,220,7,220,1,20,2,40,1,20,0,"((Ice, VeryStrong),(Thunder, Weak),(Fire, Weak))",0,1,TRUE,FALSE,TRUE
+Altair,/Game/Character/Enemy/Altair/BP_Altair.BP_Altair_C,2,150,8,250,8,250,2,40,1,20,1,40,10,"((Fire, Weak),(Thrust, Weak),(Strike, Strong))",0,1,TRUE,FALSE,TRUE
+WingedGuard,/Game/Character/Enemy/WingedGuard/BP_WingedGuard.BP_WingedGuard_C,1,100,8,230,8,230,2,50,1,30,1,20,0,"((Thrust, Strong),(Dark, Strong),(Fire, Weak),(Light, Weak))",1,1,TRUE,FALSE,TRUE
+WingedSkeleton,/Game/Character/Enemy/WingedSkeleton/BP_WingedSkeleton.BP_WingedSkeleton_C,1,100,8,230,8,230,2,50,1,30,1,20,0,"((Thrust, Strong),(Dark, Strong),(Fire, Weak),(Light, Weak))",1,1,TRUE,FALSE,TRUE
+Skeleton,/Game/Character/Enemy/Skeleton/BP_Skeleton.BP_Skeleton_C,5,500,8,230,8,230,2,50,1,30,3,250,50,"((Thrust, Strong),(Dark, Strong),(Fire, Weak),(Light, Weak))",1,2,FALSE,FALSE,TRUE
+BoneArcher,/Game/Character/Enemy/BoneArcher/BP_BoneArcher.BP_BoneArcher_C,5,500,8,250,8,250,2,50,1,30,3,250,50,"((Thrust, Strong),(Dark, Strong),(Fire, Weak),(Light, Weak))",1,2,FALSE,FALSE,TRUE
+BonePillar,/Game/Character/Enemy/BonePillar/BP_BonePillar.BP_BonePillar_C,4,400,9,270,9,270,5,100,1,30,1,100,0,"((Thrust, Strong),(Fire, Strong),(Strike, Weak))",5,2,FALSE,FALSE,TRUE
+WhiteDragon,/Game/Character/Enemy/WhiteDragon/BP_WhiteDragon.BP_WhiteDragon_C,10,1000,9,270,9,270,3,60,2,40,7,650,100,"((Thrust, Strong),(Fire, Strong),(Strike, Weak))",1,3,FALSE,FALSE,TRUE
+Une,/Game/Character/Enemy/Une/BP_Une.BP_Une_C,2,200,9,260,9,260,1,30,0,10,1,100,0,"((Fire, VeryWeak),(Slash, Weak),(Light, Strong),(Strike, VeryStrong))",0,1,FALSE,FALSE,TRUE
+ChosenUne,/Game/Character/Enemy/ChosenUne/BP_ChosenUne.BP_ChosenUne_C,10,1000,9,280,9,280,4,80,1,20,3,300,100,"((Fire, VeryWeak),(Slash, Weak),(Light, Strong),(Strike, VeryStrong))",0,2,FALSE,FALSE,TRUE
+Imp,/Game/Character/Enemy/Imp/BP_Imp.BP_Imp_C,3,250,8,230,8,230,2,50,2,50,2,150,30,"((Dark, Strong),(Light, Weak))",2,1,TRUE,FALSE,TRUE
+MiniDevil,/Game/Character/Enemy/MiniDevil/BP_MiniDevil.BP_MiniDevil_C,3,250,8,230,8,230,2,50,2,50,2,150,30,"((Dark, Strong),(Light, Weak))",8,1,TRUE,FALSE,TRUE
+Specter,/Game/Character/Enemy/Specter/BP_Specter.BP_Specter_C,7,700,8,240,8,240,2,40,4,80,3,300,0,"((Dark, VeryStrong),(Fire, Weak),(Light, VeryWeak))",7,2,TRUE,FALSE,TRUE
+Tombstone,/Game/Character/Enemy/Tombstone/BP_Tombstone.BP_Tombstone_C,3,300,7,220,7,220,10,200,2,50,2,200,0,"((Slash, VeryStrong),(Fire, VeryStrong),(Thrust, Strong),(Thunder, Weak),(Strike, VeryWeak))",7,2,FALSE,FALSE,TRUE
+Rycuda,/Game/Character/Enemy/Rycuda/BP_Rycuda.BP_Rycuda_C,5,500,9,260,9,260,1,20,3,60,3,250,30,"((Fire, VeryWeak),(Thrust, Weak),(Thunder, VeryStrong),(Strike, Strong))",0,2,TRUE,FALSE,TRUE
+Valkyrie,/Game/Character/Enemy/Valkyrie/BP_Valkyrie.BP_Valkyrie_C,5,500,8,250,8,250,2,40,2,40,3,250,50,"((Light, Strong),(Thrust, Strong),(Ice, Weak),(Dark, Weak))",1,2,TRUE,FALSE,TRUE
+Erinys,/Game/Character/Enemy/Erinys/BP_Erinys.BP_Erinys_C,5,500,8,250,8,250,2,40,2,40,3,250,50,"((Light, Strong),(Thrust, Strong),(Ice, Weak),(Dark, Weak))",8,2,TRUE,FALSE,TRUE
+RazorBat,/Game/Character/Enemy/RazorBat/BP_RazorBat.BP_RazorBat_C,3,300,9,280,9,280,1,30,1,30,2,200,0,"((Slash, Weak),(Fire, Weak),(Dark, Strong),(Strike, Strong))",0,2,TRUE,FALSE,TRUE
+Lerajie,/Game/Character/Enemy/Lerajie/BP_Lerajie.BP_Lerajie_C,5,500,9,270,9,270,2,40,20,40,3,250,70,"((Slash, Weak),(Thrust, Strong))",8,2,FALSE,FALSE,TRUE
+Nyx,/Game/Character/Enemy/Nyx/BP_Nyx.BP_Nyx_C,5,500,8,240,8,240,1,30,3,70,3,250,70,"((Thrust, Weak),(Dark, Strong))",11,2,FALSE,FALSE,TRUE
+AutomatonZX,/Game/Character/Enemy/AutomatonZX/BP_AutomatonZX.BP_AutomatonZX_C,3,300,12,350,12,350,10,200,2,50,3,300,0,"((Slash, VeryStrong),(Fire, VeryStrong),(Thrust, Strong),(Thunder, Weak),(Strike, Weak))",1,2,FALSE,FALSE,TRUE
+KillerClown,/Game/Character/Enemy/KillerClown/BP_KillerClown.BP_KillerClown_C,7,700,9,260,9,260,2,40,2,40,3,250,0,"((Thrust, Weak),(Strike, Strong))",0,2,FALSE,FALSE,TRUE
+DeadMate,/Game/Character/Enemy/DeadMate/BP_DeadMate.BP_DeadMate_C,7,700,10,290,10,290,1,30,2,50,3,250,0,"((Light, Strong),(Dark, Strong),(Slash, Weak),(Fire, Weak))",4,2,FALSE,FALSE,TRUE
+DeadHound,/Game/Character/Enemy/DeadHound/BP_DeadHound.BP_DeadHound_C,3,250,7,210,7,210,2,50,1,30,2,150,10,"((Thrust, Weak),(Fire, Weak),(Strike, Strong))",0,1,FALSE,FALSE,FALSE
+GraveDigger,/Game/Character/Enemy/GraveDigger/BP_GraveDigger.BP_GraveDigger_C,13,1300,10,290,10,290,5,100,2,50,7,650,150,"((Fire, Weak),(Ice, Weak),(Thunder, Weak),(Strike, VeryStrong))",4,3,FALSE,FALSE,TRUE
+FleaMan,/Game/Character/Enemy/FleaMan/BP_FleaMan.BP_FleaMan_C,2,200,7,220,7,220,1,30,1,30,1,100,0,"((Fire, Weak),(Strike, Strong))",0,1,FALSE,FALSE,TRUE
+Ripper,/Game/Character/Enemy/Ripper/BP_Ripper.BP_Ripper_C,2,200,7,220,7,220,1,30,1,30,1,100,0,"((Fire, Weak),(Strike, Strong))",0,1,FALSE,FALSE,TRUE
+WakwakTree,/Game/Character/Enemy/WakwakTree/BP_WakwakTree.BP_WakwakTree_C,20,2000,10,300,10,300,2,50,1,20,7,650,0,"((Slash, Weak),(Fire, VeryWeak),(Light, VeryStrong),(Strike, Strong))",8,3,FALSE,FALSE,TRUE
+AxeArmor,/Game/Character/Enemy/AxeArmor/BP_AxeArmor.BP_AxeArmor_C,5,500,8,250,8,250,7,150,1,30,3,250,0,"((Slash, Strong),(Fire, Strong),(Thunder, Weak),(Strike, Weak))",1,2,FALSE,FALSE,TRUE
+RedAxeArmor,/Game/Character/Enemy/RedAxeArmor/BP_RedAxeArmor.BP_RedAxeArmor_C,3,250,8,250,8,250,7,150,1,30,1,50,0,"((Slash, Strong),(Fire, Strong),(Thunder, Weak),(Strike, Weak))",1,2,FALSE,FALSE,TRUE
+DoubleAxeArmor,/Game/Character/Enemy/DoubleAxeArmor/BP_DoubleAxeArmor.BP_DoubleAxeArmor_C,5,500,8,250,8,250,7,150,1,30,3,250,0,"((Slash, Strong),(Fire, Strong),(Thunder, Weak),(Strike, Weak))",1,2,FALSE,FALSE,TRUE
+Aliorumnas,/Game/Character/Enemy/Aliorumnas/BP_Aliorumnas.BP_Aliorumnas_C,6,600,8,250,8,250,1,30,7,150,3,300,50,"((Light, VeryStrong),(Dark, VeryWeak))",2,2,TRUE,FALSE,TRUE
+FrozenHalf,/Game/Character/Enemy/FrozenHalf/BP_FrozenHalf.BP_FrozenHalf_C,15,1500,8,250,8,250,1,30,7,150,7,700,100,"((Fire, VeryWeak),(Ice, VeryStrong))",8,3,TRUE,FALSE,TRUE
+Amducias,/Game/Character/Enemy/Amducias/BP_Amducias.BP_Amducias_C,10,1000,9,280,9,280,2,40,3,60,7,650,0,"((Ice, Weak),(Thunder, Strong),(Strike, Strong))",4,3,FALSE,FALSE,TRUE
+DiscusLord,/Game/Character/Enemy/DiscusLord/BP_DiscusLord.BP_DiscusLord_C,10,1000,9,280,9,280,5,100,2,40,7,650,0,"((Thunder, Weak),(Fire, Strong),(Strike, Strong))",1,3,FALSE,FALSE,TRUE
+Demon,/Game/Character/Enemy/Demon/BP_Demon.BP_Demon_C,13,1300,9,270,9,270,4,80,4,80,7,650,0,"((Light, VeryWeak),(Thrust, Weak),(Dark, VeryStrong),(Strike, Strong))",6,3,TRUE,FALSE,TRUE
+FlameDemon,/Game/Character/Enemy/FlameDemon/BP_FlameDemon.BP_FlameDemon_C,13,1300,9,270,9,270,4,80,4,80,7,650,0,"((Ice, VeryWeak),(Thrust, Weak),(Fire, VeryStrong),(Strike, Strong))",12,3,TRUE,FALSE,TRUE
+DemonLord,/Game/Character/Enemy/DemonLord/BP_DemonLord.BP_DemonLord_C,13,1300,9,270,9,270,4,80,4,80,7,650,0,"((Light, VeryWeak),(Thrust, Weak),(Dark, VeryStrong),(Strike, Strong))",6,3,TRUE,FALSE,TRUE
+Mimic,/Game/Character/Enemy/Mimic/BP_Mimic.BP_Mimic_C,6,600,10,300,10,300,4,80,2,40,4,350,0,"((Fire, Weak),(Strike, Strong))",3,2,FALSE,FALSE,FALSE
+Malphas,/Game/Character/Boss/Malphas/BP_Malphas.BP_Malphas_C,150,15000,10,300,10,300,3,60,3,60,75,7500,0,"((Light, Weak),(Dark, Strong))",4,5,FALSE,TRUE,FALSE
+JiangShi,/Game/Character/Boss/JiangShi/BP_JiangShi.BP_JiangShi_C,150,15000,10,300,10,300,1,30,5,100,75,7500,100,"((Strike, Strong),(Ice, Weak),(Thunder, Weak),(Dark, Strong))",2,5,FALSE,TRUE,FALSE
+MiniJiangShi,/Game/Character/Enemy/MiniJiangShi/BP_MiniJiangShi.BP_MiniJiangShi_C,3,250,9,270,9,270,0,15,2,50,0,0,0,"((Strike, Strong),(Ice, Weak),(Thunder, Weak),(Dark, Strong))",2,1,FALSE,FALSE,FALSE
+Death,None,100,10000,10,300,10,300,3,60,6,120,0,0,30,"((Dark, VeryStrong),(Light, Weak))",3,5,TRUE,TRUE,FALSE
+Death2nd,None,100,10000,10,300,10,300,6,120,3,60,100,10000,200,"((Dark, VeryStrong),(Light, Weak))",3,5,FALSE,TRUE,FALSE
+DraculaGhost,/Game/Character/Enemy/DraculaGhost/BP_DraculaGhost.BP_DraculaGhost_C,2,200,10,300,10,300,2,50,5,100,0,0,0,"((Fire, VeryStrong),(Ice, VeryWeak))",7,2,TRUE,FALSE,FALSE
+DraculaWolf,/Game/Character/Enemy/DraculaWolf/BP_DraculaWolf.BP_DraculaWolf_C,1,100,10,300,10,300,2,40,1,20,0,0,10,"((Thrust, Weak),(Strike, Strong))",0,1,FALSE,FALSE,FALSE
+Dracula,/Game/Character/Boss/Dracula/BP_Dracula.BP_Dracula_C,6666,6666,10,300,10,300,0,0,0,0,0,0,0,(),0,6,FALSE,TRUE,FALSE
+Dracula2nd,None,10000,10000,10,300,10,300,5,100,5,100,0,0,0,(),15,6,FALSE,TRUE,FALSE

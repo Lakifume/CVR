@@ -31,29 +31,23 @@ This is a project meant to be in continuous development until its full scope is 
 - Demon Guest House
 - Cursed Clock Tower
 - Sandy Grave
+- Nation of Fools
 - Castle Keep
-- Burnt Paradise
 - 13th Street
 - Minera Prison Island
 - Mystery Manor
 - Castle Library
 ### Bosses
 - Dario *
-- Gergoth **
-- Zephyr *
-- Astarte *
-- Sisters ***
-- Creature *
-- Medusa ***
-- Werewolf *
 - Brauner **
-- Maneater **
-- Goliath ***
-- Albus *
-- Barlowe *
-- Blackmore **
 - Death **
-- Greatest 5 ***
+- Akmodan *
+- Gergoth **
+- Sisters ***
+- Werewolf *
+- Creature *
+- Goliath ***
+- Barlowe *
 ### Randomization
 - Map layout and connections
 - Boss placement
