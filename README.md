@@ -57,5 +57,49 @@ This is a project meant to be in continuous development until its full scope is 
 - Dialogues
 - Shops
 - Unique enemy drops
+- Skill mastery
 - Sidequests
 - Sidemodes
+## Controls
+### Controller
+**Remappable:** 
+- Jump
+- Primary weapon
+- Secondary weapon
+- Primary special
+- Secondary special
+- Movement ability 1
+- Movement ability 2
+- Accept <-> Cancel
+**Pause menu:** Start
+**Map viewer:** Select
+**Map Marker:** Top face button
+**Tab Left:** Left shoulder
+**Tab Right:** Right shoulder
+**Page Up:** Left Trigger
+**Page Down:** Right Trigger
+**Zoom In:** Right Trigger
+**Zoom Out:** Left Trigger
+### Keyboard
+**Jump:** Z
+**Primary weapon:** X
+**Secondary weapon:** C
+**Primary special:** A
+**Secondary special:** S
+**Movement ability 1:** Left Shift
+**Movement ability 2:** D
+**Accept:** Z
+**Cancel:** X
+**Pause menu:** Enter
+**Map viewer:** Spacebar
+**Map Marker:** S
+**Tab Left:** Q
+**Tab Right:** E
+**Page Up:** A
+**Page Down:** D
+**Zoom In:** D
+**Zoom Out:** A
+### Mouse
+**Accept:** Left click
+**Cancel:** Right click
+**Scroll:** Mouse wheel
