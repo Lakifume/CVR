@@ -71,6 +71,7 @@ This is a project meant to be in continuous development until its full scope is 
 - Movement ability 1
 - Movement ability 2
 - Accept <-> Cancel
+
 **Non-remappable:** 
 - **Pause menu:** Start
 - **Map viewer:** Select
