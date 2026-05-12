@@ -132,3 +132,24 @@ void UCPP_RootMotionAsyncAction::SetReadyToDestroy()
     Super::SetReadyToDestroy();
     RegisteredWithGameInstance = nullptr;
 }
+
+FVector UCPP_RootMotionAsyncAction::GetCurrentForce()
+{
+    TSharedPtr<FRootMotionSource> RootMotionSource = CharacterMovement->GetRootMotionSourceByID(RootMotionSourceID);
+    if (RootMotionSource.IsValid())
+    {
+        FRootMotionSource_ConstantForce* ConstantForce = static_cast<FRootMotionSource_ConstantForce*>(RootMotionSource.Get());
+        return ConstantForce->Force;
+    }
+    return FVector(0.0, 0.0, 0.0);
+}
+
+void UCPP_RootMotionAsyncAction::SetCurrentForce(FVector InForce)
+{
+    TSharedPtr<FRootMotionSource> RootMotionSource = CharacterMovement->GetRootMotionSourceByID(RootMotionSourceID);
+    if (RootMotionSource.IsValid())
+    {
+        FRootMotionSource_ConstantForce* ConstantForce = static_cast<FRootMotionSource_ConstantForce*>(RootMotionSource.Get());
+        ConstantForce->Force = InForce;
+    }
+}

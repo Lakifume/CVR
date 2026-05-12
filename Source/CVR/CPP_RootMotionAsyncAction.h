@@ -98,6 +98,12 @@ public:
         bool bEnableGravity
     );
 
+    UFUNCTION(BlueprintCallable, BlueprintPure, Category = "RootMotion")
+    FVector GetCurrentForce();
+
+    UFUNCTION(BlueprintCallable, Category = "RootMotion")
+    void SetCurrentForce(FVector InForce);
+
     // Override functions from parent
     virtual void Activate() override;
     virtual void Cancel() override;
