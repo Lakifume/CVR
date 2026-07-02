@@ -18,4 +18,10 @@ public:
     // Expose UpdatePhysicsVolume to Blueprints
     UFUNCTION(BlueprintCallable, Category = "Physics")
     void ForceUpdatePhysicsVolume();
+
+    // Expose modifying JumpCurrentCount to Blueprints
+    UFUNCTION(BlueprintCallable, Category = "Movement")
+    void SetJumpCurrentCount(int32 NewCount);
+
+    virtual void ResetJumpState() override;
 };
