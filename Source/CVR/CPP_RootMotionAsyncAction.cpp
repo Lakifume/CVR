@@ -82,8 +82,8 @@ void UCPP_RootMotionAsyncAction::Activate()
                         {
                             // If everything went well, broadcast OnComplete (fire the On Complete pin), and wrap up.
                             WeakThis->bShouldBroadcastCancel = false;
-                            WeakThis->Cancel();
                             WeakThis->OnComplete.Broadcast();
+                            WeakThis->Cancel();
                         }
                     }),
                 Duration,
@@ -96,8 +96,8 @@ void UCPP_RootMotionAsyncAction::Activate()
 
     // If something failed, we can broadcast OnFail, and then wrap up.
     bShouldBroadcastCancel = false;
-    Cancel();
     OnFail.Broadcast();
+    Cancel();
 }
 
 void UCPP_RootMotionAsyncAction::Cancel()
@@ -106,8 +106,6 @@ void UCPP_RootMotionAsyncAction::Cancel()
     {
         return;
     }
-
-    Super::Cancel();
 
     if (const UWorld* World = GetWorld())
     {
@@ -125,12 +123,32 @@ void UCPP_RootMotionAsyncAction::Cancel()
             OnCancel.Broadcast();
         }
     }
+
+    Super::Cancel();
 }
 
-void UCPP_RootMotionAsyncAction::SetReadyToDestroy()
+bool UCPP_RootMotionAsyncAction::IsActive() const
 {
-    Super::SetReadyToDestroy();
-    RegisteredWithGameInstance = nullptr;
+    if (!Super::IsActive() || !CharacterMovement)
+    {
+        return false;
+    }
+
+    if (const UWorld* World = GetWorld())
+    {
+        if (CharacterMovement->GetRootMotionSourceByID(RootMotionSourceID).IsValid())
+        {
+            return true;
+        }
+        
+        FTimerManager& TimerManager = World->GetTimerManager();
+        
+        if (TimerManager.IsTimerActive(OngoingTimer) || TimerManager.IsTimerPaused(OngoingTimer))
+        {
+            return true;
+        }
+    }
+    return false;
 }
 
 FVector UCPP_RootMotionAsyncAction::GetCurrentForce()

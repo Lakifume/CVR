@@ -107,7 +107,7 @@ public:
     // Override functions from parent
     virtual void Activate() override;
     virtual void Cancel() override;
-    virtual void SetReadyToDestroy() override;
+    virtual bool IsActive() const override;
 
     virtual UWorld* GetWorld() const override
     {
