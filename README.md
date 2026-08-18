@@ -107,3 +107,15 @@ This is a project meant to be in continuous development until its full scope is 
 - **Accept:** Left click
 - **Cancel:** Right click
 - **Scroll:** Mouse wheel
+## Credits
+# Game Design
+- Lakifume
+# IP and Assets
+- Konami
+# Game Engine
+- Epic Games
+# Special Thanks
+- Unreal Source Discord
+- Castlevania Fighter
+- Morell Sunweaver
+- chrisaegrimm
