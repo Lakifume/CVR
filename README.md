@@ -5,13 +5,16 @@ The core idea and concept of the game is heavily inspired by Aria of Sorrow Repr
 This is a project meant to be in continuous development until its full scope is reached. See the current roadmap projections below
 ## Currently in the demo
 ### Playable characters
+- Soma
 - Charlotte
 ### Areas
 - Dark Chapel
+- 13th Street
 - Underground Labyrinth
 ### Bosses
 - Malphas
 - Jiang Shi
+- Werewolf
 - Dracula
 ### Randomization
 - Progression abilities and items
@@ -23,7 +26,6 @@ This is a project meant to be in continuous development until its full scope is 
 - Normal
 ## Roadmap
 ### Playable characters
-- Soma
 - Jonathan
 - Sanoa
 ### Areas
@@ -33,7 +35,6 @@ This is a project meant to be in continuous development until its full scope is 
 - Sandy Grave
 - Nation of Fools
 - Castle Keep
-- 13th Street
 - Minera Prison Island
 - Mystery Manor
 - Castle Library
@@ -41,10 +42,9 @@ This is a project meant to be in continuous development until its full scope is 
 - Dario *
 - Brauner **
 - Death **
-- Akmodan *
+- Mummy Man *
 - Gergoth **
 - Sisters ***
-- Werewolf *
 - Creature *
 - Goliath ***
 - Barlowe *
@@ -107,14 +107,14 @@ This is a project meant to be in continuous development until its full scope is 
 - **Accept:** Left click
 - **Cancel:** Right click
 - **Scroll:** Mouse wheel
-## Credits
-# Game Design
+# Credits
+## Game Design
 - Lakifume
-# IP and Assets
+## IP and Assets
 - Konami
-# Game Engine
+## Game Engine
 - Epic Games
-# Special Thanks
+## Special Thanks
 - Unreal Source Discord
 - Castlevania Fighter
 - Morell Sunweaver
