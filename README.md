@@ -3,6 +3,7 @@ CVR is an Unreal Engine fangame combining assets and gameplay elements from all 
 The core idea and concept of the game is heavily inspired by Aria of Sorrow Reprise, a roguelike mod for the GBAvania by Xanthus
 
 This is a project meant to be in continuous development until its full scope is reached. See the current roadmap projections below
+Development started in September 2024
 ## Currently in the demo
 ### Playable characters
 - Soma
@@ -107,14 +108,28 @@ This is a project meant to be in continuous development until its full scope is 
 - **Accept:** Left click
 - **Cancel:** Right click
 - **Scroll:** Mouse wheel
-# Credits
-## Game Design
+## Tips and tricks
+Currently the game contains no tutorials, here are some useful things to know:
+- On Windows the game can only respond to controllers that are connected or converted to Xinput
+- Confirm and Back mappings will be automatically swapped based on the Controller Style chosen in the settings menu
+- If not using the mouse to navigate menus make sure to leave the cursor on the edge of the screen so that it does no conflict with controller focus
+- While magical abilities have dedicated buttons pressing attack while holding Up also triggers them
+- Almost every weapon has a super technique that can be activated with the Hadoken input command which provides brief invulnerability
+- By default landing will cancel any attack animation instantly, however you can force an animation to bypass this by holding Down as you land
+- Parts of a room are sometimes hidden behind fake tile layers. These hidden zones always have at least a subtle indicator that they exist
+- On rare occasions an enemy will spawn golden, tremendously increasing its rewards but making it much harder to kill
+- The restart to first room feature in the pause menu is only available if you have no statuses at full health while grounded with no enemies in sight
+- The demo does not have any proper ending screen yet, beating a run will automatically fade back to the title screen
+## Known bugs
+- Holding down a direction on the keyboard or dpad while exiting the menu will continuously rapid fire that input until released
+## Credits
+### Game Design
 - Lakifume
-## IP and Assets
+### IP and Assets
 - Konami
-## Game Engine
+### Game Engine
 - Epic Games
-## Special Thanks
+### Special Thanks
 - Unreal Source Discord
 - Castlevania Fighter
 - Morell Sunweaver
