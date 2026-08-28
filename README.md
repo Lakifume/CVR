@@ -4,31 +4,42 @@ The core idea and concept of the game is heavily inspired by Aria of Sorrow Repr
 
 This is a project meant to be in continuous development until its full scope is reached. See the current roadmap projections below
 Development started in September 2024
+
+**CVR must remain non-profit and will NOT monetize in any shape or form, as per compliance to the [Konami Copyright Policy](https://eu-support.konami.com/hc/en-gb/articles/9648771731479-Copyrights-Career-Opportunities-Goodies)**
+**The game also lacks any original story and thus does not contain any spoilers to official Castlevania games**
+
 ## Currently in the demo
+
 ### Playable characters
 - Soma
 - Charlotte
+
 ### Areas
 - Dark Chapel
 - 13th Street
 - Underground Labyrinth
+
 ### Bosses
 - Malphas
 - Jiang Shi
 - Werewolf
 - Dracula
+
 ### Randomization
 - Progression abilities and items
 - Equipment and filler items
 - Per-room enemy types
 - Background music (optional)
 - Room gimmicks (optional)
+
 ### Difficulties
 - Normal
+
 ## Roadmap
 ### Playable characters
 - Jonathan
 - Sanoa
+
 ### Areas
 - Garden of madness
 - Demon Guest House
@@ -39,6 +50,7 @@ Development started in September 2024
 - Minera Prison Island
 - Mystery Manor
 - Castle Library
+
 ### Bosses
 - Dario *
 - Brauner **
@@ -49,11 +61,14 @@ Development started in September 2024
 - Creature *
 - Goliath ***
 - Barlowe *
+
 ### Randomization
 - Map layout and connections
 - Boss placement
+
 ### Difficulties
 - Hard
+
 ## Never planned
 - Dialogues
 - Shops
@@ -61,7 +76,9 @@ Development started in September 2024
 - Skill mastery
 - Sidequests
 - Sidemodes
+
 ## Controls
+
 ### Controller
 **Remappable:** 
 - Jump
@@ -83,6 +100,7 @@ Development started in September 2024
 - **Page Down:** Right Trigger
 - **Zoom In:** Right Trigger
 - **Zoom Out:** Left Trigger
+
 ### Keyboard
 **Non-remappable:** 
 - **Jump:** Z
@@ -103,11 +121,13 @@ Development started in September 2024
 - **Page Down:** D
 - **Zoom In:** D
 - **Zoom Out:** A
+
 ### Mouse
 **Non-remappable:** 
 - **Accept:** Left click
 - **Cancel:** Right click
 - **Scroll:** Mouse wheel
+
 ## Tips and tricks
 Currently the game contains no tutorials, here are some useful things to know:
 - On Windows the game can only respond to controllers that are connected or converted to Xinput
@@ -120,17 +140,31 @@ Currently the game contains no tutorials, here are some useful things to know:
 - On rare occasions an enemy will spawn golden, tremendously increasing its rewards but making it much harder to kill
 - The restart to first room feature in the pause menu is only available if you have no statuses at full health while grounded with no enemies in sight
 - The demo does not have any proper ending screen yet, beating a run will automatically fade back to the title screen
+
 ## Known bugs
 - Holding down a direction on the keyboard or dpad while exiting the menu will continuously rapid fire that input until released
+
 ## Credits
+
 ### Game Design
 - Lakifume
+
 ### IP and Assets
 - Konami
+
 ### Game Engine
 - Epic Games
+
 ### Special Thanks
 - Unreal Source Discord
 - Castlevania Fighter
 - Morell Sunweaver
 - chrisaegrimm
+
+## AI disclosure
+
+Generative AI has only been used to draw the letters of the game's logo subtitle to match that of the official font style
+I am hoping to eventually replace those by that of a real artist's down the line
+
+## Discord
+This project does have a dedicated Discord server, however the permanent link can only be accessed from the game's title screen to mitigate bot spam
