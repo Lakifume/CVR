@@ -1,12 +1,12 @@
 # Castlevania Remembrance
 CVR is an Unreal Engine fangame combining assets and gameplay elements from all 3 DSVania games to create roguelike runs with high replayability potential.
-The core idea and concept of the game is heavily inspired by Aria of Sorrow Reprise, a roguelike mod for the GBAvania by Xanthus
+The core idea and concept of the game is heavily inspired by Aria of Sorrow Reprise, a roguelike mod for the GBAvania by Xanthus.
 
-This is a project meant to be in continuous development until its full scope is reached. See the current roadmap projections below
-Development started in September 2024
+This is a project meant to be in continuous development until its full scope is reached. See the current roadmap projections below.
+Development started in September 2024.
 
-**CVR must remain non-profit and will NOT monetize in any shape or form, as per compliance to the [Konami Copyright Policy](https://eu-support.konami.com/hc/en-gb/articles/9648771731479-Copyrights-Career-Opportunities-Goodies)**
-**The game also lacks any original story and thus does not contain any spoilers to official Castlevania titles**
+**CVR must remain non-profit and will NOT monetize in any shape or form, as per compliance to the [Konami Copyright Policy](https://eu-support.konami.com/hc/en-gb/articles/9648771731479-Copyrights-Career-Opportunities-Goodies).**
+**The game also lacks any original story and thus does not contain any spoilers to official Castlevania titles.**
 
 ## Currently in the demo
 
@@ -164,11 +164,11 @@ Currently the game contains no tutorials, here are some useful things to know:
 - chrisaegrimm
 
 ## AI disclosure
-Generative AI has only been used to draw the letters of the game's logo subtitle to match that of the official font style
-I am hoping to eventually replace those by that of a real artist's down the line
+Generative AI has only been used to draw the letters of the game's logo subtitle to match that of the official font style.
+I am hoping to eventually replace those by that of a real artist's down the line.
 
 ## Discord
-This project does have a dedicated Discord server, however the permanent link can only be accessed from the game's title screen to mitigate bot spam
+This project does have a dedicated Discord server, however the permanent link can only be accessed from the game's title screen to mitigate bot spam.
 
 ## Running from source
 
