@@ -8,8 +8,8 @@ The core idea and concept of the game is heavily inspired by [Aria of Sorrow Rep
 This is a project meant to be in continuous development until its full scope is reached. See the current roadmap projections below.<br/>
 Development started in September 2024.
 
-**CVR must remain non-profit and will NOT monetize in any shape or form, as per compliance to the [Konami Copyright Policy](https://eu-support.konami.com/hc/en-gb/articles/9648771731479-Copyrights-Career-Opportunities-Goodies).
-The game also lacks any original story and thus does not contain any spoilers to official Castlevania titles.**
+**CVR must remain non-profit and will NOT monetize in any shape or form, as per compliance to the [Konami Copyright Policy](https://eu-support.konami.com/hc/en-gb/articles/9648771731479-Copyrights-Career-Opportunities-Goodies).**
+**The game also lacks any original story and thus does not contain any spoilers to official Castlevania titles.**
 
 ## Currently in the demo
 
