@@ -1,11 +1,14 @@
 # Castlevania Remembrance
-CVR is an Unreal Engine fangame combining assets and gameplay elements from all 3 DSVania games to create roguelike runs with high replayability potential.
-The core idea and concept of the game is heavily inspired by Aria of Sorrow Reprise, a roguelike mod for the GBAvania by Xanthus.
 
-This is a project meant to be in continuous development until its full scope is reached. See the current roadmap projections below.
+<img width="1920" height="420" alt="Banner" src="https://github.com/user-attachments/assets/598fecac-48ba-47c4-ab5a-baed150dec5f" />
+
+CVR is an Unreal Engine fangame combining assets and gameplay elements from all 3 DSVania games to create roguelike runs with high replayability potential.<br/>
+The core idea and concept of the game is heavily inspired by [Aria of Sorrow Reprise](https://www.inverteddungeon.com/index.php?section=fanworks&page=rando_castlevania_aria_of_sorrow_reprise), a roguelike mod for the GBAvania by Xanthus.
+
+This is a project meant to be in continuous development until its full scope is reached. See the current roadmap projections below.<br/>
 Development started in September 2024.
 
-**CVR must remain non-profit and will NOT monetize in any shape or form, as per compliance to the [Konami Copyright Policy](https://eu-support.konami.com/hc/en-gb/articles/9648771731479-Copyrights-Career-Opportunities-Goodies).**
+**CVR must remain non-profit and will NOT monetize in any shape or form, as per compliance to the [Konami Copyright Policy](https://eu-support.konami.com/hc/en-gb/articles/9648771731479-Copyrights-Career-Opportunities-Goodies).**<br/>
 **The game also lacks any original story and thus does not contain any spoilers to official Castlevania titles.**
 
 ## Currently in the demo
@@ -164,7 +167,7 @@ Currently the game contains no tutorials, here are some useful things to know:
 - chrisaegrimm
 
 ## AI disclosure
-Generative AI has only been used to draw the letters of the game's logo subtitle to match that of the official font style.
+Generative AI has only been used to draw the letters of the game's logo subtitle to match that of the official font style.<br/>
 I am hoping to eventually replace those by that of a real artist's down the line.
 
 ## Discord
