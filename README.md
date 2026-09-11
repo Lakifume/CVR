@@ -132,21 +132,8 @@ Development started in September 2024.
 - **Cancel:** Right click
 - **Scroll:** Mouse wheel
 
-## Tips and tricks
-Currently the game contains no tutorials, here are some useful things to know:
+## Known issues
 - On Windows the game can only respond to controllers that are connected or converted to Xinput
-- Confirm and Back mappings will be automatically swapped based on the Controller Style chosen in the settings menu
-- If not using the mouse to navigate menus make sure to leave the cursor on the edge of the screen so that it does not conflict with controller focus
-- While magical abilities have dedicated buttons pressing attack while holding UP also triggers them
-- Almost every weapon has a super technique that can be activated with the Hadoken input command which provides brief invulnerability
-- By default landing will cancel any attack animation instantly, however you can force an animation to bypass this by holding DOWN as you land
-- Parts of a room are sometimes hidden behind fake tile layers. These hidden zones always have at least a subtle indicator that they exist
-- The digits next to your health bar act as a countdown that tracks how many item checks are left to be discovered in your current area
-- On rare occasions an enemy will spawn golden, tremendously increasing its rewards but making it much harder to kill
-- The restart to first room feature in the pause menu is only available if you have no statuses at full health while grounded with no enemies in sight
-- The demo does not have any proper ending screen yet, beating a run will automatically fade back to the title screen
-
-## Known bugs
 - Holding down a direction on the keyboard or dpad while exiting the menu will continuously rapid fire that input until released
 
 ## Credits
