@@ -136,6 +136,10 @@ Development started in September 2024.
 - On Windows the game can only respond to controllers that are connected or converted to Xinput
 - Holding down a direction on the keyboard or dpad while exiting the menu will continuously rapid fire that input until released
 
+## Disclaimer
+While this game isn't aiming to be hardcore you will find it to be more demanding than the average Igavania.
+Knowledge of core game mechanics may be expected to complete a run.
+
 ## Credits
 
 ### Game Design
