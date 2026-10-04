@@ -20,4 +20,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "SceneComponent")
 	static void UpdateComponentChildTransforms(USceneComponent* Component, int32 UpdateTransformFlags, ETeleportType Teleport);
 
+	UFUNCTION(BlueprintCallable, Category = "FileIO")
+	static bool ReadExternalBinaryFile(const FString& AbsolutePath, TArray<uint8>& OutBytes);
+
 };

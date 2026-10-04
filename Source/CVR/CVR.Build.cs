@@ -1,5 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+using System.IO;
 using UnrealBuildTool;
 
 public class CVR : ModuleRules
@@ -19,5 +20,7 @@ public class CVR : ModuleRules
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
 		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
+        
+        RuntimeDependencies.Add(Path.Combine(Target.ProjectFile.Directory.FullName, "Maps", "..."), StagedFileType.NonUFS);
 	}
 }
