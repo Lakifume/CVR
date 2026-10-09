@@ -11,7 +11,7 @@ Development started in September 2024.
 **CVR must remain non-profit and will NOT monetize in any shape or form, as per compliance to the [Konami Copyright Policy](https://eu-support.konami.com/hc/en-gb/articles/9648771731479-Copyrights-Career-Opportunities-Goodies).**
 **The game also lacks any original story and thus does not contain any spoilers to official Castlevania titles.**
 
-## Currently in the demo
+## Current version content
 
 ### Playable characters
 - Soma
@@ -32,6 +32,7 @@ Development started in September 2024.
 - Progression abilities and items
 - Equipment and filler items
 - Per-room enemy types
+- Map layout and connections*
 - Background music (optional)
 - Room gimmicks (optional)
 
@@ -67,7 +68,6 @@ Development started in September 2024.
 - Barlowe *
 
 ### Randomization
-- Map layout and connections
 - Boss placement
 
 ### Difficulties
@@ -131,6 +131,12 @@ Development started in September 2024.
 - **Accept:** Left click
 - **Cancel:** Right click
 - **Scroll:** Mouse wheel
+
+## Map randomization
+This game does not procedurally generate maps at runtime. Instead it picks randomly from a limited pool of hand-assembled layouts made with the [CVR-Map-Builder](https://github.com/Lakifume/CVR-Map-Builder).<br/>
+This is by design as dynamically generated euclidean map layouts are not realistically achievable without sacrificing the quality of exploration.
+While the current method is limited it will provide more designer control and overall better user experience during gameplay.<br/>
+At the moment the map pool is small but will steadily grow overtime as development progresses forward.
 
 ## Known issues
 - On Windows the game can only respond to controllers that are connected or converted to Xinput
