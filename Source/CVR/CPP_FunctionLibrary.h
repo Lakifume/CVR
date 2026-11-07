@@ -23,4 +23,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "FileIO")
 	static bool ReadExternalBinaryFile(const FString& AbsolutePath, TArray<uint8>& OutBytes);
 
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Input")
+	static FName GetKeyName(const FKey& InKey);
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Input")
+	static FString GetKeyString(const FKey& InKey);
 };

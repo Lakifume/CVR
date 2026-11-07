@@ -18,7 +18,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "AI|Logic")
 	void PauseLogic();
 
-public:
 	UFUNCTION(BlueprintCallable, Category = "AI|Logic")
 	void ResumeLogic();
 };

@@ -15,11 +15,9 @@ class CVR_API ACPP_Character : public APaperZDCharacter
 	GENERATED_BODY()
 
 public:
-    // Expose UpdatePhysicsVolume to Blueprints
     UFUNCTION(BlueprintCallable, Category = "Physics")
     void ForceUpdatePhysicsVolume();
 
-    // Expose modifying JumpCurrentCount to Blueprints
     UFUNCTION(BlueprintCallable, Category = "Movement")
     void SetJumpCurrentCount(int32 NewCount);
 

@@ -33,3 +33,13 @@ bool UCPP_FunctionLibrary::ReadExternalBinaryFile(const FString& AbsolutePath, T
 	UE_LOG(LogTemp, Error, TEXT("Failed to read binary file, could not load data from: %s"), *AbsolutePath);
 	return false;
 }
+
+FName UCPP_FunctionLibrary::GetKeyName(const FKey& InKey)
+{
+	return InKey.GetFName();
+}
+
+FString UCPP_FunctionLibrary::GetKeyString(const FKey& InKey)
+{
+	return InKey.ToString();
+}

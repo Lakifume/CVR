@@ -161,6 +161,7 @@ Knowledge of core game mechanics may be expected to complete a run.
 - Unreal Source Discord
 - Castlevania Fighter
 - Morell Sunweaver
+- Cobra Code
 - chrisaegrimm
 
 ## AI disclosure
