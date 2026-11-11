@@ -12,6 +12,7 @@ void UCPP_GameInstance::SetNavigationEnabled(bool bEnabled)
     {
         TSharedRef<FNavigationConfig> NavConfig = FSlateApplication::Get().GetNavigationConfig();
         NavConfig->bKeyNavigation = bEnabled;
+        NavConfig->bAnalogNavigation = bEnabled;
     }
 }
 
@@ -84,15 +85,10 @@ void UCPP_GameInstance::Init()
     if (FSlateApplication::IsInitialized())
     {
         TSharedRef<FNavigationConfig> NavConfig = FSlateApplication::Get().GetNavigationConfig();
-        NavConfig->KeyEventRules.Emplace(EKeys::Gamepad_LeftStick_Left,  EUINavigation::Left);
-        NavConfig->KeyEventRules.Emplace(EKeys::Gamepad_LeftStick_Right, EUINavigation::Right);
-        NavConfig->KeyEventRules.Emplace(EKeys::Gamepad_LeftStick_Down,  EUINavigation::Down);
-        NavConfig->KeyEventRules.Emplace(EKeys::Gamepad_LeftStick_Up,    EUINavigation::Up);
         NavConfig->KeyActionRules.Remove(EKeys::Gamepad_FaceButton_Bottom);
         NavConfig->KeyActionRules.Remove(EKeys::Gamepad_FaceButton_Right);
         NavConfig->KeyActionRules.Remove(EKeys::SpaceBar);
         NavConfig->KeyActionRules.Remove(EKeys::Enter);
-        NavConfig->bAnalogNavigation = false;
         NavConfig->bTabNavigation = false;
         DefaultActionRules = NavConfig->KeyActionRules;
         DefaultEventRules = NavConfig->KeyEventRules;

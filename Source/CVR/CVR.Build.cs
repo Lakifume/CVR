@@ -9,7 +9,7 @@ public class CVR : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "RenderCore", "InputCore", "GameplayTags" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "UMG", "RenderCore", "InputCore", "GameplayTags" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
