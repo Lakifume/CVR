@@ -43,7 +43,7 @@ Development started in September 2024.
 
 ### Playable characters
 - Jonathan
-- Sanoa
+- Shanoa
 
 ### Areas
 - Garden of madness
