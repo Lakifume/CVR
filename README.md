@@ -157,6 +157,9 @@ Knowledge of core game mechanics may be expected to complete a run.
 ### Game Engine
 - Epic Games
 
+### Art Support
+- lvlvkun
+
 ### Special Thanks
 - Unreal Source Discord
 - Castlevania Fighter
