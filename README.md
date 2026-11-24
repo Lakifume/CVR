@@ -84,29 +84,30 @@ Development started in September 2024.
 ## Controls
 
 ### Controller
-**Remappable:** 
-- Jump
-- Primary weapon
-- Secondary weapon
-- Primary special
-- Secondary special
-- Movement ability 1
-- Movement ability 2
-- Accept <-> Cancel
+**Remappable:**
+- **Jump:** Right face button
+- **Primary weapon:** Top face button
+- **Secondary weapon:** Bottom face button
+- **Primary special:** Left trigger
+- **Secondary special:** Right trigger
+- **Movement ability 1:** Left shoulder
+- **Movement ability 2:** Right shoulder
+- **Accept:** Right face button
+- **Cancel:** Bottom face button
 
-**Non-remappable:** 
+**Non-remappable:**
 - **Pause menu:** Start
 - **Map viewer:** Select
 - **Map Marker:** Top face button
 - **Tab Left:** Left shoulder
 - **Tab Right:** Right shoulder
-- **Page Up:** Left Trigger
-- **Page Down:** Right Trigger
-- **Zoom In:** Right Trigger
-- **Zoom Out:** Left Trigger
+- **Page Up:** Left trigger
+- **Page Down:** Right trigger
+- **Zoom In:** Right trigger
+- **Zoom Out:** Left trigger
 
 ### Keyboard
-**Non-remappable:** 
+**Remappable:**
 - **Jump:** Z
 - **Primary weapon:** X
 - **Secondary weapon:** C
@@ -127,7 +128,7 @@ Development started in September 2024.
 - **Zoom Out:** A
 
 ### Mouse
-**Non-remappable:** 
+**Non-remappable:**
 - **Accept:** Left click
 - **Cancel:** Right click
 - **Scroll:** Mouse wheel
@@ -166,10 +167,6 @@ Knowledge of core game mechanics may be expected to complete a run.
 - Morell Sunweaver
 - Cobra Code
 - chrisaegrimm
-
-## AI disclosure
-Generative AI has only been used to draw the letters of the game's logo subtitle to match that of the official font style.<br/>
-I am hoping to eventually replace those by that of a real artist's down the line.
 
 ## Discord
 This project does have a dedicated Discord server, however the permanent link can only be accessed from the game's title screen to mitigate bot spam.
