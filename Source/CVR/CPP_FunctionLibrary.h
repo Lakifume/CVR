@@ -28,4 +28,16 @@ public:
 
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Input")
 	static FString GetKeyString(const FKey& InKey);
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Collision")
+	static EObjectTypeQuery CollisionChannelToObjectType(ECollisionChannel Channel);
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Collision")
+	static ETraceTypeQuery CollisionChannelToTraceType(ECollisionChannel Channel);
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Collision")
+	static ECollisionChannel ObjectTypeToCollisionChannel(EObjectTypeQuery ObjectType);
+
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Collision")
+	static ECollisionChannel TraceTypeToCollisionChannel(ETraceTypeQuery TraceType);
 };

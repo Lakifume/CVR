@@ -43,3 +43,23 @@ FString UCPP_FunctionLibrary::GetKeyString(const FKey& InKey)
 {
 	return InKey.ToString();
 }
+
+EObjectTypeQuery UCPP_FunctionLibrary::CollisionChannelToObjectType(ECollisionChannel Channel)
+{
+	return UEngineTypes::ConvertToObjectType(Channel);
+}
+
+ETraceTypeQuery UCPP_FunctionLibrary::CollisionChannelToTraceType(ECollisionChannel Channel)
+{
+	return UEngineTypes::ConvertToTraceType(Channel);
+}
+
+ECollisionChannel UCPP_FunctionLibrary::ObjectTypeToCollisionChannel(EObjectTypeQuery ObjectType)
+{
+	return UEngineTypes::ConvertToCollisionChannel(ObjectType);
+}
+
+ECollisionChannel UCPP_FunctionLibrary::TraceTypeToCollisionChannel(ETraceTypeQuery TraceType)
+{
+	return UEngineTypes::ConvertToCollisionChannel(TraceType);
+}
